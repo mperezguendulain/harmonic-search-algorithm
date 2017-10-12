@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Busqueda Armónica</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="icon" type="image/png" href="img/Music.png" />
+	</head>
+	<body>
+		<div class="espacio-titulo">
+			<center>
+				<h1>Problema de Maximización de una función</h1>
+				<h4>Resuelto con Busqueda Armónica</h4>
+			</center>
+		</div>
+		<center id='main-container'>
+			<div class='container-graph'><h4 class='header-title'><b>Avance óptimo</b></h4>
+				<div id='chart-avance-optimo'></div>
+			</div>
+		</center>
+
+		<script src="js/funciones.js" type="text/javascript"></script>
+		<script src="js/init.js" type="text/javascript"></script>
+		<script src="js/loader.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			google.charts.load('current', {'packages':['corechart']});
+			google.charts.setOnLoadCallback(drawAvanceOptimo);
+		</script>
+	</body>
+</html>

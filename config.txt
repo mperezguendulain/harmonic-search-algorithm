@@ -1,0 +1,11 @@
+Número de Iteraciónes: 100
+Tamaño de Población Nueva: 4000
+Número de Bits para representar Coordenadas X, Y: 32
+HMS: 20
+PAR: 0.1
+HMCR: 0.7
+Espacio de Busqueda:
+Xmin: -10
+Xmax: 10
+Ymin: -10
+Ymax: 10
